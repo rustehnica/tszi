@@ -1,0 +1,10 @@
+.catElement.bottom .catElementNested{min-height: 277px;}
+.price_bottom{
+	text-align:center;
+}
+.char_bottom ul{
+	padding: 0 5px;
+}
+.char_bottom ul li{
+	list-style:none;
+}

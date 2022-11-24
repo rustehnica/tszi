@@ -1,0 +1,35 @@
+.menuhorizontal{
+
+	background: #E31E24;
+	border-top: 1px #000 solid;
+	border-bottom: 1px #000 solid;
+
+}
+
+.menuhorizontal ul li {
+
+	float: left;
+	list-style-type: none;
+	border-right: 1px #000 solid;
+	background: #E31E24;	
+	text-align: center;	
+
+}
+
+.menuhorizontal ul li:hover {
+
+	background: #B6B6B6;
+
+}
+
+.menuhorizontal li a {
+
+	font: bold 15px arial;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 5px 30px;
+	text-transform: uppercase;
+	
+}
+

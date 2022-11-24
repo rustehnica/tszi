@@ -1,0 +1,62 @@
+div.mfeedback {width:700px;text-align:center;}
+div.mfeedback form{width:100%;}
+div.mfeedback input{
+	margin-bottom:2rem;
+}
+div.mfeedback input:not([type="submit"]){
+	border:0;
+	background: url(img/inputfeedback.png) top left no-repeat;
+	width: 250px;
+	height:35px;
+	padding-left: 1rem;	
+}
+div.mfeedback input[type="submit"]{
+	border:0;
+	background: url(img/inputsubmit.png) top left no-repeat;
+	width: 137px;
+	height:35px;
+	padding-left: 1rem;	
+	color:#fff;
+}
+div.mfeedback .mf-message{
+	display: none;
+}
+span.mf-req {color:red;}
+div.mf-ok-text {color:green; font-weight:bold; padding-bottom: 1em;}
+div.mfeedback .title_feedback{
+	text-transform: uppercase;
+	color:#ff6b09;
+	text-align:center;
+	font-size: 3rem;
+	margin-bottom: 3rem;
+}
+div.mfeedback .right-block{
+	color:#ffffff;
+}
+div.mfeedback div:nth-child(2) p{
+	text-align: center;
+	font-size:1.7rem;
+}
+div.mfeedback div:nth-child(2) p{
+	text-align: center;
+}
+.fancybox-content{
+	max-width: none !important;
+}
+div.mfeedback .contact{
+	font-size:1.7rem;
+	color:#ffffff;
+	text-align:left;
+	font-weight:bold;
+}
+.fancybox-content{
+	padding-bottom:0 !important;
+}
+.fancybox-slide--html .fancybox-close-small{
+	color:#ffffff !important;
+	width:60px;
+	height:60px;
+}
+.fancybox-bg{
+	/* background-color: transparent !important; */
+}
