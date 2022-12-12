@@ -10,8 +10,6 @@
           <excludedPaths>
             <excludedPath path="/bitrix" />
             <excludedPath path="/upload" />
-            <excludedPath local="true" path="$PROJECT_DIR$/bitrix" />
-            <excludedPath local="true" path="$PROJECT_DIR$/upload" />
           </excludedPaths>
         </serverdata>
       </paths>

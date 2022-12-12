@@ -1,0 +1,214 @@
+body {  margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px}
+
+BODY {  font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #000	}
+	
+.text img, .image .bottom img{
+   
+   padding:0 10px 10px 10px; 
+    
+}
+
+.image img{
+
+   border: 20px solid #F0F0F0;
+
+}
+
+#image-head td:hover{
+
+   background-color: #eeeeee;
+
+}
+
+hr { height: 1px; color: #2C2C2C}
+
+h1 { 
+
+	width: 100%;
+	border: 1px solid #ff6b09;
+	padding: 5px;
+	font-size: 23px;
+	margin: 0;
+	color:#000000;
+	
+}
+
+h2{	font-size: 18px; color: #000}
+h3 {  font-family: Arial, sans-serif; color: #000}
+
+
+.h3top {  font-family: Arial, Tahoma, Verdana, Helvetica, sans-serif; color: #EAEBE8; font-size: 16px; font-weight: bold}
+
+
+
+.text {  font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #FFFFFF}
+.textbottom {  font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #2C2C2C}
+.textbottominfo {  font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #2C2C2C}
+.texteqd {  font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #2C2C2C}
+.texteqtabl {  font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #2C2C2C}
+.textoder {  font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #5F5F5F}
+
+
+.imgmane { border: 1px #B4B4B4 double }
+
+
+A {COLOR: #ff6b09; TEXT-DECORATION: none; font-family: Arial;}
+A:hover { TEXT-DECORATION: underline; color:#db5802;}
+
+
+
+.inputsearch {  width: 135px; font-family: Arial; font-size: 11px; color: #454545; background-color: #EAEAEA}
+
+.inputcontacts {  width: 150px; font-family: Arial; font-size: 11px; color: #454545; background-color: #F4F4F4}
+
+.textareacontacts {  width: 250px; font-family: Arial; font-size: 11px; color: #454545; background-color: #F4F4F4}
+
+
+
+.selectbottommenu {  font-family: Arial; font-size: 11px; color: #2C2C2C; background-color: #F6F6F6}
+
+
+
+.inputoderkoll {  width: 40px; font-family: Arial; font-size: 11px; color: #454545; background-color: #EAEAEA}
+.inputoderbut {  width: 250px; font-family: Arial; font-size: 11px; color: #454545; background-color: #EAEAEA; cursor: hand}
+.inputoderkoll2 {  font-size: 11px; color: #454545; background-color: #EAEAEA}
+
+
+
+/**
+ * страница КТП кисковые
+ */
+.bottom{
+    
+    padding: 10px;
+    
+}
+
+
+.bottom-color{
+    
+    background-color: #DBE5F1;
+    padding: 10px;
+    
+}
+
+.top{
+    
+    padding-left:40px;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-size: larger;
+    
+}
+
+.left{
+ 
+    float:left; 
+    width: 49%;
+    
+}
+
+.left .top{
+    
+    background-color: #376091; 
+    
+}
+
+.right{
+
+    float:right;
+    width: 49%;
+    background-color: #ccecff ;
+    
+}
+
+.right .top{
+    
+    background-color: #0066cc;
+    
+}
+
+.center{
+    
+    text-align: justify;
+        
+}
+
+.operation{
+    margin-top:10px;
+    background-color: #60497B;
+    
+}
+
+.text{
+    
+    text-align: justify;
+    color:#000;
+    font-size: 14px;
+
+    
+}
+
+.clear{
+    clear: both;
+    
+}
+
+.operation .bottom{
+    
+    background-color: #ccc0da;
+    
+}
+
+.number{
+    
+    margin: 10px 0 0 0;
+    padding: 0 0 0 40px;
+    background-color: #DBE5F1;
+    
+}
+
+.guide{
+    
+    background-color: #DBEEF3;
+    padding-left: 40px;
+
+}
+
+/**
+ * Конец КТП киосковых
+ */
+
+/**
+ * Начало КТП мачтовых
+ */
+
+.top1{
+    
+    height: 50%;
+    margin-bottom: 10px;
+    padding: 5px; 
+    
+    
+}
+
+.top1 div{
+    
+    padding: 5px;
+    
+}
+
+.top2{
+    
+    height: 50%;
+    background-color: #DBE5F1;
+}
+
+.break{
+
+	clear: both;
+
+}
+
+.table-bordered, .table-bordered > tbody > tr > td, .table-bordered > thead > tr > th{border: 1px solid #000;}
