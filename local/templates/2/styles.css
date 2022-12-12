@@ -168,10 +168,8 @@ ul{
 footer{
 
 	width: 100%;
-	border: 0;
-	/*height: 120px;*/
-	background-color: #D9DADA;
-	/*padding: 0 10px;*/
+	border-top: 2px solid #e8e8e8;;
+	border-bottom: 2px solid #e8e8e8;;
 
 }
 
@@ -749,4 +747,34 @@ padding:5px;
 }
 .content_table tr td p{
 	margin:0;
+}
+/* Отступы */
+.mt-3{
+	margin-top:3rem;
+}
+.mt-1{
+	margin-top:1rem;
+}
+.mt-2{
+	margin-top:1rem;
+}
+
+/* Шрифты */
+/* Жирный */
+.fb{
+	font-weight: bold;
+}
+/* Серый */
+.fc-gray{
+	color: #8e8e8e;
+}
+.fc-black{
+	color: #000;
+}
+/* Размер */
+.fs-25{
+	font-size: 25px;
+}
+.fs-18{
+	font-size: 18px;
 }

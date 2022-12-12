@@ -1,3 +1,13 @@
 .b24-web-form-popup-btn-30{
 	line-height:auto !important;
 }
+.menuright ul{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.menuright li{
+	height: 5rem;
+	display: flex;
+	align-items: center;
+}
