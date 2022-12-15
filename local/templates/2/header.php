@@ -189,13 +189,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 </section>
 
-<?//if($APPLICATION->GetCurPage(false) !== '/' && strpos($APPLICATION->GetCurDir(), 'mcatalog') === false):?>
-
 <?if($APPLICATION->GetCurPage(false) != '/mcatalog/'):?>
 
 	<section class="container">
 		
 		<div class="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+
 			<?if(defined('IS_PAGE') == true && IS_PAGE != "YES" && $APPLICATION->GetCurPage(false) !== '/catalog/'):?>
 				<?$APPLICATION->IncludeComponent(
 					"bitrix:breadcrumb", 
@@ -235,8 +234,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <?endif; ?>
 
 <section class="container wrap">
-
-
 	
 	<div class="row">
 	

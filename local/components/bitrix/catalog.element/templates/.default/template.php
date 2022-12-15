@@ -23,8 +23,6 @@ $this->setFrameMode(true);
 );?>
 <div class="break"></div>
 
-
-
 <?if(!empty($arResult["MORE_PHOTO"])):?>
 
 	<div class="zoom-section col-xs-12 col-sm-6 col-md-4 col-lg-8">    	  
@@ -112,7 +110,7 @@ $this->setFrameMode(true);
 <?else:?>
 	<?
 		$rsSections = CIBlockSection::GetList(	
-											Array("SORT"=>"­­ASC"),
+											Array("SORT"=>"ASC"),
 											Array("IBLOCK_ID" => $arResult["IBLOCK_ID"], "ID" => $arResult['IBLOCK_SECTION_ID']),
 											false,
 											Array('UF_PHOTO')														

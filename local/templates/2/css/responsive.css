@@ -1,4 +1,7 @@
-
+.b24-web-form-popup-btn-30{
+	cursor:pointer;
+	display:block !important;
+}
 .contact-catalog{
 
 	margin: 20px 0 10px 0;
@@ -47,6 +50,7 @@
 
 		.catElement .detailed{
 			text-align:center;
+			padding: 0 15px;
 		}
 		.catElement .detailed a{
 			background-color: #ff6b09;
@@ -54,6 +58,7 @@
 			text-transform: uppercase;
 			text-align:center;
 			padding: 0.5rem 1rem;
+
 		}
 		.catElement .char{
 			margin: 2rem 0;			
